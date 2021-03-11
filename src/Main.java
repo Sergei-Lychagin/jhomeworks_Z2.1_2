@@ -8,12 +8,12 @@ if (balance > 1000) {
     
 int bonus = (int)(balance/100);
     balance = balance + bonus;
-    System.out.println("Ваш бонус");
-    System.out.println(bonus);
+    System.out.println("Your bonus" + "   " + bonus + "rub");
+    
     }
 else {balance = balance;}
 
-System.out.println(balance);
+System.out.println("Your balance is" + "  " + balance + "rub");
         
     }
 }
